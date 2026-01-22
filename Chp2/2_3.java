@@ -1,0 +1,28 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+// The main method must be in a class named "Main".
+public class Main {
+    int e;
+    int m;
+
+    void input_grade(int a, int b){
+        e = a;
+        m = b;
+    }
+
+    void output_grade(){
+        System.out.println(e + m);
+    }
+    
+    public static void main(String[] args) {
+        Main g1, g2;
+        g1 = new Main();
+        g2 = new Main();
+        g1.input_grade(90, 85);
+        g2.input_grade(80, 80);
+        g1.output_grade();
+        g2.output_grade();
+    }
+}
