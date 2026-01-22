@@ -1,0 +1,2 @@
+int anArray[];
+String szString;
